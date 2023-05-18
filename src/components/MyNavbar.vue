@@ -15,7 +15,13 @@
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="cart.html">Cart</a></li>
-        <li><a href="./SigninPage.vue"><img class="profile" src="https://www.nicepng.com/png/full/933-9332131_profile-picture-default-png.png"></a></li>
+        <li>
+          <a href=""
+            ><img
+              class="profile"
+              src="https://www.nicepng.com/png/full/933-9332131_profile-picture-default-png.png"
+          /></a>
+        </li>
       </ul>
     </div>
   </section>

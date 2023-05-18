@@ -1,25 +1,25 @@
 <template>
   <div id="app">
-    <Navbar></Navbar>
-    <Product></Product>
-    <Footer></Footer>
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav>
+    <router-view/>
   </div>
 </template>
 
-<script>
-import Navbar from './components/MyNavbar.vue';
-import Product from './components/MyProduct.vue';
-import Footer from './components/MyFooter.vue';
-export default {
-  name: 'App',
-  components: {
-    Navbar,
-    Product,
-    Footer
-  }
-}
-</script>
-
 <style>
 
+nav {
+  padding: 30px;
+}
+
+nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+nav a.router-link-exact-active {
+  color: #42b983;
+}
 </style>
